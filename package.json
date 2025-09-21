@@ -2,7 +2,7 @@
   "name": "welding-shop",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://12694Sameer.github.io/your-repo-name",
+  "homepage": "https://12694Sameer.github.io/weldingshop-premandbrothers",
   "dependencies": {
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.8.0",
