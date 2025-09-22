@@ -12,15 +12,18 @@ const BannerCarousel = () => {
       interval={2000}
     >
       <div>
-        <img src="/wledingimage1.jpeg" alt="Welding Banner 1" className="banner-img" />
+        {/* <img src="/wledingimage1.jpeg" alt="Welding Banner 1" className="banner-img" /> */}
+        <img src={`${process.env.PUBLIC_URL}/wledingimage1.jpeg`} className="banner-img" />
         <p className="legend">Precision Welding Services</p>
       </div>
       <div>
-        <img src="/wledingimage12.jpeg" alt="Welding Banner 2" className="banner-img" />
+        <img src={`${process.env.PUBLIC_URL}/wledingimage12.jpeg`} className="banner-img" />
+        {/* <img src="/wledingimage12.jpeg" alt="Welding Banner 2" className="banner-img" /> */}
         <p className="legend">Custom Fabrication Solutions</p>
       </div>
       <div>
-        <img src="/welding-banner.png" alt="Welding Banner 3" className="banner-img" />
+        <img src={`${process.env.PUBLIC_URL}/welding-banner.png`} className="banner-img" />
+        {/* <img src="/welding-banner.png" alt="Welding Banner 3" className="banner-img" /> */}
         <p className="legend">Prem & Brothers Workshop</p>
       </div>
     </Carousel>
