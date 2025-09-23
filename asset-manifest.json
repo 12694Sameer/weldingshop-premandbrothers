@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/weldingshop-premandbrothers/static/css/main.2e894017.css",
-    "main.js": "/weldingshop-premandbrothers/static/js/main.f9cdd067.js",
+    "main.js": "/weldingshop-premandbrothers/static/js/main.13d37339.js",
     "static/js/453.68ad7ac7.chunk.js": "/weldingshop-premandbrothers/static/js/453.68ad7ac7.chunk.js",
     "index.html": "/weldingshop-premandbrothers/index.html",
     "main.2e894017.css.map": "/weldingshop-premandbrothers/static/css/main.2e894017.css.map",
-    "main.f9cdd067.js.map": "/weldingshop-premandbrothers/static/js/main.f9cdd067.js.map",
+    "main.13d37339.js.map": "/weldingshop-premandbrothers/static/js/main.13d37339.js.map",
     "453.68ad7ac7.chunk.js.map": "/weldingshop-premandbrothers/static/js/453.68ad7ac7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2e894017.css",
-    "static/js/main.f9cdd067.js"
+    "static/js/main.13d37339.js"
   ]
 }
