@@ -4,18 +4,32 @@ import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Home from './pages/Home';
 import Customers from './pages/Customers';
-import Jobs from './pages/Jobs';
+import Jobs from './pages/Product';
+import CompletedProducts from './components/CompletedProducts';
+import ProductForm from './components/ProductForm';
+import ProductTable from './components/ProductTable';
+import CustomerForm from './components/CustomerForm';
 
 function App() {
   return (
     <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/customers" element={<Customers />} />
-        <Route path="/jobs" element={<Jobs />} />
-      </Routes>
-      <Footer />
+      <div className="d-flex flex-column min-vh-100">
+        <Navbar />
+        <main className="flex-grow-1">
+          <div className="container py-4">
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/customers" element={<Customers />} />
+              <Route path="/add-customer" element={<CustomerForm />} />
+              <Route path="/jobs" element={<Jobs />} />
+              <Route path="/completed" element={<CompletedProducts />} />
+              <Route path="/add-product" element={<ProductForm />} />
+              <Route path="/products" element={<ProductTable />} />
+            </Routes>
+          </div>
+        </main>
+        <Footer />
+      </div>
     </Router>
   );
 }

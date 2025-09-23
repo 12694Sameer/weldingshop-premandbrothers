@@ -1,12 +1,13 @@
 import React from 'react';
+import CustomerForm from '../components/CustomerForm';
 import CustomerTable from '../components/CustomerTable';
 
-const Customers = () => {
+export default function Customers() {
   return (
-    <div>
+    <div className="container my-4">
+      <CustomerForm />
+      <hr />
       <CustomerTable />
     </div>
   );
-};
-
-export default Customers;
+}

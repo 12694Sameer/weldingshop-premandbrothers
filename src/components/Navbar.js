@@ -2,17 +2,57 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => (
-  <nav style={{ 
-    backgroundColor: '#1f2937', // Dark gray-blue
-    padding: '1rem',
-    display: 'flex',
-    justifyContent: 'center',
-    gap: '2rem',
-    color: 'white'
-  }}>
-    <Link to="/" style={{ color: 'white', textDecoration: 'none' }}>Home</Link>
-    <Link to="/customers" style={{ color: 'white', textDecoration: 'none' }}>Customers</Link>
-    <Link to="/jobs" style={{ color: 'white', textDecoration: 'none' }}>Jobs</Link>
+  <nav className="navbar navbar-expand-lg navbar-dark" style={{ backgroundColor: '#1F4E79' }}>
+    <div className="container-fluid">
+      <Link className="navbar-brand d-flex align-items-center" to="/">
+        {/* <img
+          src="/images/logo.png"
+          alt="Prem & Brothers Logo"
+          style={{ height: '40px', marginRight: '10px' }}
+        /> */}
+        <img src={`${process.env.PUBLIC_URL}/logo.png`} 
+        alt="Prem & Brothers Logo"
+          style={{ height: '40px', marginRight: '10px' }}
+        />
+        <span className="fw-bold">Prem & Brothers</span>
+      </Link>
+      <button
+        className="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span className="navbar-toggler-icon"></span>
+      </button>
+      <div className="collapse navbar-collapse" id="navbarNav">
+        <ul className="navbar-nav ms-auto">
+          <li className="nav-item">
+            <Link className="nav-link" to="/">Home</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/customers">Customers</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/jobs">Product</Link>
+          </li>
+          <li className="nav-item">
+            <Link className="nav-link" to="/completed">Completed Products</Link>
+          </li>
+          {/* <li className="nav-item">
+            <Link className="nav-link" to="/products">Add Product</Link>
+          </li>
+          <li className="nav-item">
+  <Link className="nav-link" to="/add-customer">Add CustomerV1</Link>
+</li>
+<li className="nav-item">
+  <Link className="nav-link" to="/add-product">Add ProductV1</Link>
+</li> */}
+        </ul>
+      </div>
+    </div>
   </nav>
 );
 
