@@ -9,6 +9,8 @@ import CompletedProducts from './components/CompletedProducts';
 import ProductForm from './components/ProductForm';
 import ProductTable from './components/ProductTable';
 import CustomerForm from './components/CustomerForm';
+import Services from './pages/Services';
+import ServiceDetails from './pages/ServiceDetails';
 
 function App() {
   return (
@@ -25,6 +27,8 @@ function App() {
               <Route path="/completed" element={<CompletedProducts />} />
               <Route path="/add-product" element={<ProductForm />} />
               <Route path="/products" element={<ProductTable />} />
+              <Route path="/services" element={<Services />} />
+              <Route path="/services/:slug" element={<ServiceDetails />} />
             </Routes>
           </div>
         </main>

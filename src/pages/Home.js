@@ -14,6 +14,7 @@ const Home = () => {
       <ul>
         <li><Link to="/customers">Manage Customers</Link></li>
         <li><Link to="/jobs">Track Welding Jobs</Link></li>
+        <li><Link to="/services">Our Services</Link></li>
       </ul>
     </div>
   );

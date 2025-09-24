@@ -27,16 +27,6 @@ const BannerCarousel = () => {
         <p className="legend">Precision Welding Services</p>
       </div>
       <div>
-<img
-  src="https://drive.google.com/uc?export=view&id=1RMTYPWOFUYa1DbDBXXLS9Xg_q7wk63FO"
-  alt="Welding Banner"
-  onError={(e) => { e.target.src = '/images/default-banner.jpg'; }}
-  style={{ width: '100%', maxHeight: '400px', objectFit: 'cover' }}
-/>
-
-  <p className="legend">Drive Image Banner</p>
-</div>
-      <div>
         <img
           src={`${process.env.PUBLIC_URL}/wledingimage12.jpeg`}
           alt="Custom Fabrication Solutions"
