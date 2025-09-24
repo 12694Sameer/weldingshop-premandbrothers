@@ -7,37 +7,37 @@ export default function Services() {
       title: 'Slider Gate',
       slug: 'slider-gate',
       description: 'Custom-built sliding gates with smooth operation, durable tracks, and secure locking systems.',
-      image: `${process.env.PUBLIC_URL}/sliding gate.JFIF`
+      image: `${process.env.PUBLIC_URL}/sliding gate.png`
     },
     {
       title: 'Channel Gate',
       slug: 'channel-gate',
       description: 'Heavy-duty channel gates designed for industrial and residential use with reinforced steel channels.',
-      image: `${process.env.PUBLIC_URL}/chanelgate.JFIF`
+      image: `${process.env.PUBLIC_URL}/chanelgate.png`
     },
     {
       title: 'Shutter',
       slug: 'shutter',
       description: 'Manual and automatic shutters for shops and garages, built with rust-resistant materials.',
-      image: `${process.env.PUBLIC_URL}/shutter1.JFIF`
+      image: `${process.env.PUBLIC_URL}/shutter1.png`
     },
     {
       title: 'Grill',
       slug: 'grill',
       description: 'Decorative and security grills for windows and balconies, available in modern and traditional styles.',
-      image: `${process.env.PUBLIC_URL}/grill.JFIF`
+      image: `${process.env.PUBLIC_URL}/grill.png`
     },
     {
       title: 'Custom Fabrication',
       slug: 'custom-fabrication',
       description: 'Tailored metalwork including frames, partitions, and support structures built to your specifications.',
-      image: `${process.env.PUBLIC_URL}/customfab.JFIF`
+      image: `${process.env.PUBLIC_URL}/customfab.png`
     },
     {
       title: 'Railing',
       slug: 'railing',
       description: 'Elegant and durable railings for balconies, staircases, and terraces. Available in modern, classic, and custom designs with powder-coated finishes.',
-      image: `${process.env.PUBLIC_URL}/railing.JFIF`
+      image: `${process.env.PUBLIC_URL}/railing.png`
     }
   ];
 
